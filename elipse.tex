@@ -1,0 +1,29 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+	Definición. Se define la elipse como el conjunto de puntos cuya suma de distancia a dos puntos dados(llamados focos) es constante.\\
+	
+	\bigskip Consideramos como focos el punto A y el origen. Tomamos un punto x cualquiera de la elipse y por la definición tenemos que $|x|+|A-x|=c$ con $c$ una constante positiva.\\
+	\medskip
+
+	Operando sobre esa igualdad tenemos que:\\
+
+	\medskip
+	$|A-x|= c - |x| \implies {|A-x|}^2 = {(c-|x|)}^2 \\
+	\implies  |A|^2+|x|^2-2<A,x> = c^2+|x|^2-2c|x| \\
+	\implies |A|^2-2<A,x>= c^2 -2c|x| 
+	\\ \implies |x|+<-\frac{1}{c}A,x> = \frac{c^2-|A|^2}{2c}$\\
+	
+	\bigskip
+	
+	Tomando $e = -\frac{1}{c}A $ y $k = \frac{c^2-|A|^2}{2c}$ tenemos la ecuación de una cónica.\\
+	Finalmente, usando la desigualdad triangular: \\
+	\medskip
+	$|A| < |x| + |A-x| = c $ \\
+	Luego $|e| < 1 $ y $k > 0$ 
+\end{document}
