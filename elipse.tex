@@ -133,9 +133,10 @@ Lothar Soto Palma} % Author
 		\includegraphics[scale=0.75]{elipse.png} 
 	\end{center}	\addtocounter{ndef}{1}
 	Consideramos la elipse no centrada y sean los focos $O$ y $F$, tal que el primero de estos está centrado en el origen $(0,0)$.\\ 
+	\section{Definición}
 	\textbf{Definición \arabic{ndef}}.- Se define la elipse como el lugar geométrico de todos los puntos o el conjunto de puntos de un plano cuya suma de distancia a dos puntos dados (llamados focos) es constante.\\
 	$$d_1+d_2 = c, \ \ c>0$$
-		
+	\section{Deducción de la ecuación de la elipse con un foco en el origen}
 	Consideramos como focos el punto $F$ y el origen. Tomamos un punto x cualquiera de la elipse y sabemos que $d_1 = d(O,x) = |x|$ y que $d_2 = d(F,x) = |F-x|$, por la definición tenemos que $|x|+|F-x|=c$ con $c$ una constante positiva puesto que no tiene sentido considerar una distancia negativa.\\
 	Operando sobre esa igualdad tenemos que:\\
 	$$|F-x|= c - |x| \implies {|F-x|}^2 = {(c-|x|)}^2 $$ 
@@ -153,7 +154,14 @@ Lothar Soto Palma} % Author
 	$$|F|^2 < c^2 \implies c^2-|F|^2>0 \implies k = \frac{c^2-|F|^2}{2c} > 0, \ c>0$$ 
 	Por otro lado 
 	$$e = -\frac{1}{c}F \implies |e| = |-\frac{1}{c}F| = |-\frac{1}{c}||F| < \frac{1}{c}c = 1 \implies |e|<1$$
-	
+	Por último el calculo anterior es reversible y podemos comprobarlo partiendo de la ecuación y repitiendo el proceso de manera inversa, cuando llegamos al resultado:
+		$$ |F-x|^2 = (c-|x|)^2 $$ Debemos ver que tenemos 2 posibilidades
+		$$|F-x| = c-|x|,\ \ \ |F-x| =- (c-|x|)$$ 		
+		 como $c > |F|$ en el caso $$ |F-x| =- (c-|x|)$$ tenemos que 
+		 $$|x|-c<|x|-|F| \geq |x-F| = |x|-c$$y por tanto llegamos a contradicción.
+
+
+	\section{Deducción de la ecuación típica de la elipse con un foco en el origen y en horizontal}
 	A partir de la ecuación $|x|+<-\frac{1}{c}F,x> = \frac{c^2-|F|^2}{2c}$ podemos deducir la expresión típica de la elipse que verifica pero para ello vamos a suponer que el foco $F$ se encuentra en un punto del tipo $(a, 0)$ con $a\in \mathbb{R}$; La idea es tomar coordenadas en los puntos $x$ y $F$ y desarrollar la ecuación, de esta forma vamos a realizar la serie de operaciones que sigue:
 	$$|x|+<-\frac{1}{c}F,x> = \frac{c^2-|F|^2}{2c} \Leftrightarrow |x| = \frac{c^2-|F|^2}{2c}+\frac{1}{c}<F,x> \Leftrightarrow$$
 	$$2c\sqrt{x_1^2+x_2^2} = c^2-a^2+2ax_1 \Leftrightarrow (2c\sqrt{x_1^2+x_2^2})^2 = (c^2-a^2+2ax_1)^2 \Leftrightarrow$$
@@ -167,5 +175,9 @@ Lothar Soto Palma} % Author
 	$$\frac{4}{c^2}(x_1+\frac{a}{2})^2+\frac{4}{c^2-a^2}x_2^2=1$$
 	Tomando como $a = \frac{c^2}{4}$ y $b = \frac{c^2-a^2}{4}$ obtenemos la expresión:
 	$$\frac{(x_1+\frac{a}{2})^2}{a}+\frac{x_2^2}{b}=1$$
-	Por último recordar que esta es la ecuación de la elipse con uno de sus focos centrado en el origen y colocada de forma horizontal por lo que si se quiere variar ya la posición de la mismo se puede hacer realizando un movimiento rígido de rotación a la forma bilineal de la misma.
+	Esta es la ecuación de la elipse con uno de sus focos centrado en el origen y colocada de forma horizontal por lo que si se quiere variar ya la posición de la mismo se puede hacer realizando un movimiento rígido de rotación a la forma bilineal de la misma.
+	\section{Otros casos}
+	Por último como casos particulares tenemos el caso en el que la excentricidad $e = 0$ en el que obtenemos que sustituyendo en la ecuación $|x|=k$ con $k >0$, esto es la ecuación de una circunferencia $x_1^2+x_2^2=k$.
+	\section{A modo de }
+	
 \end{document}
