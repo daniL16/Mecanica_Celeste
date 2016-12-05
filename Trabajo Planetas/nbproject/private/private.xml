@@ -5,7 +5,10 @@
         <group>
             <file>file:/home/dani/NetBeansProjects/Celeste/src/celeste/Celeste.java</file>
             <file>file:/home/dani/NetBeansProjects/Celeste/src/celeste/NewtonRaphson.java</file>
+            <file>file:/home/dani/NetBeansProjects/Celeste/src/celeste/Planeta.java</file>
+            <file>file:/home/dani/NetBeansProjects/Celeste/src/GUI/CelesteGUI.java</file>
             <file>file:/home/dani/NetBeansProjects/Celeste/src/celeste/Vector.java</file>
+            <file>file:/home/dani/NetBeansProjects/Celeste/src/celeste/Bessel.java</file>
         </group>
     </open-files>
 </project-private>

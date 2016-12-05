@@ -42,18 +42,26 @@ public class Planeta {
             Vector pos = posicion(t);
             serie.add(pos.getX1(), pos.getX2());
         }
-      // int k= serie.getItemCount();
-      //  for (int i=0 ; i<k;i++){
-      //      serie.add(-1*(double)serie.getDataItem(i).getX(),serie.getDataItem(i).getY());
-       // }
         return serie;
     }
     
-    public static double distanciaSol(Vector x){
+    public double distanciaSol(Vector x){
         return x.modulo();
     }
-    
-    public static double energia(Vector x,Vector x_){
-        return (1/2)*pow(x_.modulo(),2) + 1/x.modulo();
+    /*
+    public double energia(Vector x){
+	double u = NewtonRaphson.newton_raphson(Math.PI, epsilon,j,20);
+	double k = (a*2*Math.PI)/(p*(1-epsilon*cos(u)));
+	Vector x_ = new Vector(-k*sin(u), sqrt(1-epsilon*epsilon)*cos(u));        
+	return (1/2)*pow(x_.modulo(),2) - 1/x.modulo();
     }
+ */
+    public double area(double t1,double t2,Vector c){
+	return (1/2)*c.modulo()*(t2-t1);
+	}
+
+    /*public Vector momento_angular(Vector x){
+	Vector x_;	
+	Vector.momento_angular(x,x_);
+	}*/
 }

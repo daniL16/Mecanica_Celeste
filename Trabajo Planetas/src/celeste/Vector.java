@@ -31,4 +31,9 @@ public class Vector {
     public double modulo(){
         return sqrt(x1*x1+x2*x2);
     }
-}
+
+    public static Vector prod_vect(Vector x1, Vector x2){
+	Vector y= new Vector(x1.getX1()-x2.getX2(), x2.getX1()-x1.getX2());	
+	return y;
+    }
+};

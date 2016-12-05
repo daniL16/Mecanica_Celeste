@@ -18,7 +18,7 @@ public class NewtonRaphson {
 	}
 	else {
 		System.out.println("No hay convergencia");
-		return -1;	
+		return u;	
 	}
     }
 } ;
