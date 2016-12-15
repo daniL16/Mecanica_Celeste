@@ -23,59 +23,152 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="nept_button" min="-2" max="-2" attributes="0"/>
-                  <Component id="venus_button" min="-2" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="tierra_button" min="-2" pref="78" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                      <Component id="text_tierra" min="-2" pref="118" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="marte_button" min="-2" pref="78" max="-2" attributes="0"/>
-                  <Component id="jupiter_butt" min="-2" max="-2" attributes="0"/>
-                  <Component id="saturno_button" min="-2" max="-2" attributes="0"/>
-                  <Component id="mercurio_button" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="21" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="t_nept1" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_venus" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_tierra" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_mart" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_jup" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_sat" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_nept" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="t_mercurio" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="mercurio_button" max="32767" attributes="0"/>
+                  <Component id="venus_button" max="32767" attributes="0"/>
+                  <Component id="tierra_button" max="32767" attributes="0"/>
+                  <Component id="marte_button" max="32767" attributes="0"/>
+                  <Component id="jupiter_butt" max="32767" attributes="0"/>
+                  <Component id="saturno_button" max="32767" attributes="0"/>
+                  <Component id="nept_button" max="32767" attributes="0"/>
+                  <Component id="nept_button1" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="info_merc" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_venus" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_tierra" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_mart" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_jup" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_sat" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_nept" alignment="0" max="32767" attributes="0"/>
+                  <Component id="info_nept1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="t_todos" min="-2" pref="87" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel8" min="-2" pref="563" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Component id="mercurio_button" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="venus_button" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="tierra_button" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="text_tierra" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel8" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="t_mercurio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mercurio_button" alignment="3" max="32767" attributes="0"/>
+                          <Component id="info_merc" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="t_venus" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="venus_button" alignment="3" max="32767" attributes="0"/>
+                          <Component id="info_venus" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tierra_button" alignment="3" max="32767" attributes="0"/>
+                          <Component id="t_tierra" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="info_tierra" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="marte_button" max="32767" attributes="0"/>
+                          <Component id="info_mart" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="t_mart" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="marte_button" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jupiter_butt" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="saturno_button" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="t_jup" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jupiter_butt" alignment="3" max="32767" attributes="0"/>
+                      <Component id="info_jup" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="t_sat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="saturno_button" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="info_sat" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="nept_button" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="53" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nept_button" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="info_nept" alignment="3" max="32767" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="t_nept" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="t_nept1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nept_button1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="info_nept1" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="t_todos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -83,7 +176,7 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="mercurio_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Mercurio"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mercurio_buttonActionPerformed"/>
@@ -91,7 +184,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="venus_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Venus"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="venus_buttonActionPerformed"/>
@@ -99,7 +192,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="tierra_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tierra"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tierra_buttonActionPerformed"/>
@@ -107,7 +200,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="marte_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Marte"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="marte_buttonActionPerformed"/>
@@ -115,7 +208,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="jupiter_butt">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Jupiter"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jupiter_buttActionPerformed"/>
@@ -123,7 +216,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="saturno_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Saturno"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saturno_buttonActionPerformed"/>
@@ -131,7 +224,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="nept_button">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Neptuno"/>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nept_buttonActionPerformed"/>
@@ -139,26 +232,177 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Todos"/>
+        <Property name="text" type="java.lang.String" value="Mostrar todas las trayectorias"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="text_tierra">
+    <Component class="javax.swing.JTextField" name="t_mercurio">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_mercurioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_merc">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="text_tierraActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_mercActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mercurio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Venus"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tierra"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marte"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jupiter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Saturno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Urano"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Instante de tiempo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_venus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_venusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_venus">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_venusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_tierra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_tierraActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_tierra">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_tierraActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_mart">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_martActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_jup">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_jupActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_sat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_satActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_nept">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_neptActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_mart">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_martActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_jup">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_jupActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_sat">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_satActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_nept">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_neptActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_todos">
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Mostrar"/>
+        <Property name="text" type="java.lang.String" value="Posicion de todos"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Neptuno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="t_nept1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_nept1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="nept_button1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trayectoria"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nept_button1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="info_nept1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="info_nept1ActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

@@ -1,29 +1,16 @@
-/*package celeste;
-import java.awt.Robot;
-import static java.lang.Math.cos;
+package celeste;
 import static java.lang.Math.sin;
-import org.apache.commons.math3.*;
-import org.apache.commons.math3.analysis.UnivariateFunction;
-import org.apache.commons.math3.analysis.integration.RombergIntegrator;
+import org.apache.commons.math3.special.BesselJ;
 
-abstract class MyFunction implements UnivariateFunction {
-     public double value(int n,double epsilon) {
-         double y = cos(n*(u-epsilon*sin(u)));
-         return y;
-     }
- };
 
 public class Bessel {
    
-    public static double J_n(int n,double x,double epsilon){
-        MyFunction f;
-	RombergIntegrator romberg = new RombergIntegrator();
-	return (1/Math.PI)*romberg.integrate(50,f.value(n, x, epsilon),0,Math.PI);
-}
     public static double Bessel(double t,double epsilon,double p,int iter){
-	double u = (2*Math.PI*t)/p;
-	for (int i=0; i< iter ; i++){
-		u = u + (2/n)*J_n(i,i*epsilon)*sin((2*Math.PI*i*t)/p);
+        double j = (2*Math.PI*t)/p;
+        double u = j;
+	for (int i = 1; i <= iter ; i++){
+		u = u + (2/i)*BesselJ.value(iter,i*epsilon)*sin(j*i);
 	}
+        return u;
+    }
 } ;
-*/
